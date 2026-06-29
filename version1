@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Timely helps you organize your day, plan around locations, and know when to leave.">
+  <title>Timely | Plan smarter. Leave on time.</title>
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Timely home">
+        <!-- Replace assets/app-icon.svg with your real Timely app icon file when ready. -->
+        <!-- LOGO: If you create a full logo, replace this image and the Timely text below with your logo markup. -->
+        <img src="assets/app-icon.svg" alt="" class="brand-icon">
+        <span>Timely</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-grid content-wrap">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">AI calendar planning for real life</p>
+          <h1>Timely</h1>
+          <p class="tagline">Plan smarter. Leave on time.</p>
+          <p class="hero-description">Timely helps you organize your day, plan around locations, and know when to leave.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#coming-soon">Download Coming Soon</a>
+            <a class="button button-secondary" href="#features">View Features</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Timely app preview">
+          <div class="glow glow-blue"></div>
+          <div class="glow glow-green"></div>
+          <div class="phone-frame hero-phone">
+            <div class="phone-speaker"></div>
+            <div class="phone-screen">
+              <!-- HERO SCREENSHOT: Replace assets/hero-screenshot.svg with your main app screenshot file. -->
+              <img src="assets/hero-screenshot.svg" alt="Timely app screenshot placeholder">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screenshots section-pad" id="screenshots">
+      <div class="content-wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">App previews</p>
+          <h2>Designed for calm, confident planning.</h2>
+          <p>Show off Timely's calendar, task flow, reminders, and location-aware planning with polished phone mockups.</p>
+        </div>
+
+        <div class="screenshot-grid">
+          <article class="screenshot-card reveal">
+            <div class="phone-frame">
+              <div class="phone-speaker"></div>
+              <div class="phone-screen">
+                <!-- SCREENSHOT 1: Replace assets/screenshot-1.svg with your first app screenshot. -->
+                <img src="assets/screenshot-1.svg" alt="Upload screenshot 1 here">
+              </div>
+            </div>
+            <h3>Daily overview</h3>
+          </article>
+
+          <article class="screenshot-card reveal">
+            <div class="phone-frame">
+              <div class="phone-speaker"></div>
+              <div class="phone-screen">
+                <!-- SCREENSHOT 2: Replace assets/screenshot-2.svg with your second app screenshot. -->
+                <img src="assets/screenshot-2.svg" alt="Upload screenshot 2 here">
+              </div>
+            </div>
+            <h3>Leave-time planning</h3>
+          </article>
+
+          <article class="screenshot-card reveal">
+            <div class="phone-frame">
+              <div class="phone-speaker"></div>
+              <div class="phone-screen">
+                <!-- SCREENSHOT 3: Replace assets/screenshot-3.svg with your third app screenshot. -->
+                <img src="assets/screenshot-3.svg" alt="Upload screenshot 3 here">
+              </div>
+            </div>
+            <h3>Smart task capture</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section-pad" id="features">
+      <div class="content-wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Features</p>
+          <h2>Everything your day needs, thoughtfully connected.</h2>
+          <p>Timely blends AI scheduling, calendar clarity, and location context so your plans feel less fragile.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-icon">AI</span>
+            <h3>AI schedule planning</h3>
+            <p>Turn a busy task list into a realistic day with smart timing suggestions and priority-aware planning.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon">LT</span>
+            <h3>Smart leave-time reminders</h3>
+            <p>Know when to head out based on where you need to be, not just when your event starts.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon">LO</span>
+            <h3>Location-based tasks</h3>
+            <p>Attach places to tasks so errands, meetings, and commitments stay grounded in your real route.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon">AR</span>
+            <h3>Auto-rescheduling</h3>
+            <p>When your day changes, Timely helps move flexible tasks into better openings without the scramble.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon">CV</span>
+            <h3>Clean calendar view</h3>
+            <p>See your day at a glance with a focused, elegant calendar built for quick decisions.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon">TA</span>
+            <h3>Simple task adding</h3>
+            <p>Capture what matters quickly, then add timing and location details only when you need them.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="how section-pad">
+      <div class="content-wrap">
+        <div class="section-heading reveal">
+          <p class="eyebrow">How it works</p>
+          <h2>From thought to plan in three steps.</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step reveal">
+            <span>01</span>
+            <h3>Add your task</h3>
+            <p>Capture the plan, errand, event, or reminder before it slips away.</p>
+          </article>
+          <article class="step reveal">
+            <span>02</span>
+            <h3>Set time and location</h3>
+            <p>Add when it matters and where you need to be, with the details kept simple.</p>
+          </article>
+          <article class="step reveal">
+            <span>03</span>
+            <h3>Timely plans when you should leave</h3>
+            <p>Your day updates around the real-world timing that gets you there calmly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="about-panel content-wrap reveal">
+        <div>
+          <p class="eyebrow">About Timely</p>
+          <h2>Planning should feel lighter.</h2>
+        </div>
+        <p>Timely is built to make planning simpler, faster, and less stressful. Instead of juggling tasks, calendar events, locations, and reminders across separate mental tabs, Timely brings them into one calm place so you can move through your day with more confidence.</p>
+      </div>
+    </section>
+
+    <section class="coming-soon section-pad" id="coming-soon">
+      <div class="signup-panel content-wrap reveal">
+        <div>
+          <p class="eyebrow">Coming soon</p>
+          <h2>Be first to know when Timely launches.</h2>
+          <p>Join the early list for launch updates, product news, and app availability.</p>
+        </div>
+
+        <form class="signup-form" id="signup-form">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <button class="button button-primary" type="submit">Notify Me</button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="content-wrap footer-grid">
+      <div>
+        <a class="brand" href="#top">
+          <!-- FOOTER ICON: Replace assets/app-icon.svg with your final app icon if the file name changes. -->
+          <!-- FOOTER LOGO: If you use a full logo in the header, mirror that same logo here. -->
+          <img src="assets/app-icon.svg" alt="" class="brand-icon">
+          <span>Timely</span>
+        </a>
+        <p>Built by King Incorporated</p>
+        <p>&copy; <span id="year"></span> Timely. All rights reserved.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="mailto:hello@example.com">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
